@@ -3,7 +3,7 @@ package arrays_and_hashing;
 import java.util.HashMap;
 
 
-public class ValidAnagram {
+class ValidAnagram {
 
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
